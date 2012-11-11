@@ -548,7 +548,7 @@ public class MaryUtils {
         }
     }
     protected static final char[] toGermanLetterTable = new char[] {
-        '\u00c0', 'A', // À
+       /* '\u00c0', 'A', // À
         '\u00c1', 'A', // Á
         '\u00c2', 'A', // Â
         '\u00c3', 'A', // Ã
@@ -598,7 +598,7 @@ public class MaryUtils {
         '\u00fa', 'u', // ú
         '\u00fb', 'u', // û
         '\u00fd', 'y', // ý
-        '\u00ff', 'y', // ÿ
+        '\u00ff', 'y', // ÿ*/
     };
     
     protected static final char[] toItalianLetterTable = new char[] {
@@ -664,13 +664,13 @@ public class MaryUtils {
     };
 
     protected static final char[] germanToAsciiLetterTable = new char[] {
-        'Ä', 'A',
+        /*'Ä', 'A',
         'Ö', 'O',
         'Ü', 'U',
         'ä', 'a',
         'ö', 'o',
         'ü', 'u',
-        'ß', 's'
+        'ß', 's'*/
     };
 
     private static String normaliseUnicode(String unicodeText, char[] mappings)
